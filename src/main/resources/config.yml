@@ -14,7 +14,9 @@
 # {message-color} - the player's or the group's message color
 #
 # Color codes: Use & for colors (&a, &b, etc.) and &#rrggbb for hex colors.
-# Permissions: lpc.reload, lpc.clearchat, lpc.debug, lpc.colorcodes, lpc.rgbcodes
+# MiniMessage tags are supported in all formats and can be mixed with & codes.
+# Example: "<gradient:#ff0000:#ffaa00>{name}</gradient>&r: {message}"
+# Permissions: lpc.reload, lpc.clearchat, lpc.debug, lpc.colorcodes, lpc.rgbcodes, lpc.minimessage
 #
 # Commands:
 #   /lpc reload - Reload configuration
